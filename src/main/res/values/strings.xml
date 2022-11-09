@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_title"> Byblos Car Rental </string>
+
+    <string name="app_name">seg2105_project_gr49v4</string>
+
+    <string name="welcomeTV">Welcome to Byblos Mobile</string>
+
+    <string name="login_unameHint">E-mail</string>
+    <string name="login_pwdHint">Password</string>
+    <string name="login_signIn">SIGN IN</string>
+
+    <string name="signup_tv">Don\'t have an account?</string>
+    <string name="signup_btn">REGISTER</string>
+
+
+    <!--REGISTER ACTIVITY STRINGS-->
+    <string name="registerTitle">Create Your Account</string>
+    <string name="registerPickRole">Choose the account type:</string>
+    <string name="regEmailHint">(Enter your e-mail)</string>
+    <string name="regUserHint">(Enter a username)</string>
+    <string name="regPswdHint">(Enter a new password)</string>
+    <string name="regConfirmBtn">Confirm and Register</string>
+    <string name="regNumHint">(Enter your phone number)</string>
+    <string name="regAddHint">(Enter your home address)</string>
+    <string-array name="accountTypes">
+        <item>Client</item>
+        <item>Branch</item>
+    </string-array>
+
+    <!--USE ME-->
+    <string name="submitBtn">Submit</string>
+
+    <!--START ACTIVITY STRINGS-->
+    <string name="startTitle">Hello!</string>
+    <string name="startRoleIs">This account is for a(n): </string>
+    <string name="startGoBtn">Go to Console</string>
+
+    <!--AdminAccount Activity-->
+    <string name="AdminAccWelcomeTextView"> Welcome Administrator!</string>
+    <string name="serviceSelectTextView"> Admin Options</string>
+    <string name="servicesHintTextView">(All services are disabled by default)</string>
+    <string name="servicesTextView"> Create/Remove Services </string>
+    <string name="DeleteAccTextView"> Delete an Account</string>
+    <string name="DeleteAccUser_hint">Enter Account Username</string>
+    <string name="carRentalswitch"> Car Rental      </string>
+    <string name="carRental_hint">Enter desired price for service</string>
+    <string name="truckRentalswitch">Truck Rental    </string>
+    <string name="truckRental_hint">Enter desired price for service</string>
+    <string name="movingswitch">Moving Assistance    </string>
+    <string name="moving_hint">Enter desired price for service</string>
+    <string name="deleteAccbtn"> Delete account</string>
+
+
+    <!--CAR RENTAL-->
+    <string name="CarRentalTitle"> Car Rental Service Form</string>
+    <string name="CarRentalPersonalInfo">Personal Info</string>
+    <string name="CarRentalFirstName_hint">First name</string>
+    <string name="CarRentalLastName_hint">Last name</string>
+    <string name="CarRentalDOB_hint">Date of Birth</string>
+    <string name="CarRentalAddress_hint">Address</string>
+    <string name="CarRentalEmail_hint">E-mail Address</string>
+    <string name="CarRentalLicenseRadioGroup">License tier</string>
+    <string name="CarRentalLicenseG1Radiobtn">G1    </string>
+    <string name="CarRentalLicenseG2Radiobtn">G2    </string>
+    <string name="CarRentalLicenseGRadiobtn">G</string>
+    <string name="CarRentalPreferenceRadioGroup">Car preference</string>
+    <string name="CarRentalCompactRadiobtn">Compact    </string>
+    <string name="CarRentalIntermediateRadiobtn">Intermediate    </string>
+    <string name="CarRentalSUVRadiobtn">SUV        </string>
+    <string name="CarRentalPickUp_hint">Pick up Date</string>
+    <string name="CarRentalReturn_hint">Return Date</string>
+    <string name="CarRentalDateTextView">Pick-Up and Return Dates</string>
+
+
+    <!--TRUCK RENTAL-->
+    <string name="TruckRentalTitle"> Car Rental Service Form</string>
+    <string name="TruckRentalPersonalInfo">Personal Info</string>
+    <string name="TruckRentalFirstName_hint">First name</string>
+    <string name="TruckRentalLastName_hint">Last name</string>
+    <string name="TruckRentalDOB_hint">Date of Birth</string>
+    <string name="TruckRentalAddress_hint">Address</string>
+    <string name="TruckRentalEmail_hint">E-mail Address</string>
+    <string name="TruckRentalLicenseRadioGroup">License tier</string>
+    <string name="TruckRentalLicenseG1Radiobtn">G1    </string>
+    <string name="TruckRentalLicenseG2Radiobtn">G2    </string>
+    <string name="TruckRentalLicenseGRadiobtn">G</string>
+    <string name="TruckRentalStatsView">Expected usage</string>
+    <string name="TruckRentalMaxKM_hint">Maximum kilometers to be driven</string>
+    <string name="TruckRentalArea_hint">Area truck will be used</string>
+    <string name="TruckRentalPickUp_hint">Pick up Date</string>
+    <string name="TruckRentalReturn_hint">Return Date</string>
+    <string name="TruckRentalDateTextView">Pick-Up and Return Dates</string>
+
+    <!--Moving Service-->
+    <string name="MovingTitle">Moving Assistance Service</string>
+    <string name="MovingPersonalInfo">Personal Info</string>
+    <string name="MovingFirstName_hint">First name</string>
+    <string name="MovingLastName_hint">Last name</string>
+    <string name="MovingDOB_hint">Date of Birth</string>
+    <string name="MovingAddress_hint">Address</string>
+    <string name="MovingEmail_hint">E-mail Address</string>
+    <string name="MovingLocationTextView">Moving Locations To and From</string>
+    <string name="MovingStartLocation_hint">Starting location</string>
+    <string name="MovingEndLocation_hint">Ending location</string>
+    <string name="MovingNumTextView">Help Needed</string>
+    <string name="MovingNumOfMovers_hint">Number of Movers</string>
+    <string name="MovingNumOfBoxes_hint">Number of Boxes</string>
+
+</resources>

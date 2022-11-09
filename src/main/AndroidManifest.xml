@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seg2105_project_gr49v4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Seg2105_project_gr49v4">
+        <activity
+            android:name=".MovingAssistanceHours"
+            android:exported="true" />
+        <activity
+            android:name=".TruckRentalHours"
+            android:exported="true" />
+        <activity
+            android:name=".CarRentalHours"
+            android:exported="true" />
+        <activity
+            android:name=".SaturdayHours"
+            android:exported="true" />
+        <activity
+            android:name=".FridayHour"
+            android:exported="true" />
+        <activity
+            android:name=".ThursdayHour"
+            android:exported="true" />
+        <activity
+            android:name=".WednesdayHours"
+            android:exported="true" />
+        <activity
+            android:name=".TuesdayHours"
+            android:exported="true" />
+        <activity
+            android:name=".MondayHours"
+            android:exported="true" />
+        <activity
+            android:name=".DaysOfTheWeek"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeConsole"
+            android:exported="true" />
+        <activity
+            android:name=".EditServiceHour"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterType"
+            android:exported="true" />
+        <activity
+            android:name=".ClientOption"
+            android:exported="true" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
